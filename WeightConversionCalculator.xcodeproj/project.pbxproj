@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1CBDC92815781F008755A5 /* WeightConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CBDC82815781F008755A5 /* WeightConvert.swift */; };
 		BAF3F09D28107E0100A2E659 /* WeightConversionCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3F09C28107E0100A2E659 /* WeightConversionCalculatorApp.swift */; };
 		BAF3F09F28107E0100A2E659 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3F09E28107E0100A2E659 /* ContentView.swift */; };
 		BAF3F0A128107E0300A2E659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF3F0A028107E0300A2E659 /* Assets.xcassets */; };
@@ -14,9 +15,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA1CBDC82815781F008755A5 /* WeightConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightConvert.swift; sourceTree = "<group>"; };
 		BAF3F09928107E0100A2E659 /* WeightConversionCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightConversionCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF3F09C28107E0100A2E659 /* WeightConversionCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightConversionCalculatorApp.swift; sourceTree = "<group>"; };
-		BAF3F09E28107E0100A2E659 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAF3F09E28107E0100A2E659 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BAF3F0A028107E0300A2E659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAF3F0A328107E0300A2E659 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,6 +55,7 @@
 			children = (
 				BAF3F09C28107E0100A2E659 /* WeightConversionCalculatorApp.swift */,
 				BAF3F09E28107E0100A2E659 /* ContentView.swift */,
+				BA1CBDC82815781F008755A5 /* WeightConvert.swift */,
 				BAF3F0A028107E0300A2E659 /* Assets.xcassets */,
 				BAF3F0A228107E0300A2E659 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				BAF3F09F28107E0100A2E659 /* ContentView.swift in Sources */,
 				BAF3F09D28107E0100A2E659 /* WeightConversionCalculatorApp.swift in Sources */,
+				BA1CBDC92815781F008755A5 /* WeightConvert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +273,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WeightConversionCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = JV2CR939X4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WeightConversionCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = JV2CR939X4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
