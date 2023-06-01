@@ -1,4 +1,4 @@
-# WeightConversionCalculator
+# Weight Conversion Calculator
 Weight Conversion Calculator is a simple weight conversion tool that converts inputted numeric values to different units.
 
 ## Prerequisites
